@@ -1,0 +1,27 @@
+.men {
+	background-color: salmon;
+	color: white;
+	border: 2px solid lightpink;
+	margin: 20px;
+	padding: 20px;
+}
+
+body{
+    background-color: #000000;
+}
+
+h1{
+	color: aliceblue;
+}
+
+h2{
+	color: aliceblue;
+}
+
+h3{
+	color: aliceblue;
+}
+
+p{
+	color: aliceblue;
+}

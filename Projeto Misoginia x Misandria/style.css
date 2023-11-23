@@ -1,0 +1,74 @@
+.men {
+	background-color: salmon
+	;
+	color: white;
+	border: 2px solid lightpink;
+	margin: 20px;
+	padding: 20px;
+}
+.men1 {
+	background-color: white
+	;
+	color: black;
+	border: 2px solid lightpink;
+	margin: 20px;
+	padding: 20px;
+}
+.men2 {
+	background-color: lightblue
+	;
+	color: white;
+	border: 2px solid lightpink;
+	margin: 20px;
+	padding: 30px;
+	border: dotted
+}
+.men3 {
+	background-color: lightblue
+	;
+	color: salmon;
+	border: 2px solid lightpink;
+	margin: 20px;
+	padding: 30px;
+	border: dotted
+}
+
+body{background-image: url(https://i.shgcdn.com/84c56950-0f0f-4a07-b50a-32b57f1e0476/-/format/auto/-/preview/3000x3000/-/quality/lighter/) ;
+}
+
+h1 { font-family: "Trebuchet MS", Verdana, sans-serif; } 
+
+h2 { font-family: "Trebuchet MS", Verdana, sans-serif; }
+
+h3 { font-family: "Trebuchet MS", Verdana, sans-serif; }
+
+button{
+    color: #ffffff;
+    background-color: #ce221c;
+  border-radius: 4px;
+  animation: pulse 2s infinite;
+  font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #1c67d0;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  button:hover {
+      animation: none;
+  }
